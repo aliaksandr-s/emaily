@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "nodemon": "nodemon"
+    "nodemon": "nodemon",
+    "eslint": "eslint"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +20,8 @@
     "nodemon": "^1.18.3",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0"
   }
 }
