@@ -1,0 +1,6 @@
+module.exports = {
+  googleClientID: 'string',
+  googleClientSecret: 'string',
+  mongoURI: 'mongodb://<host>:<port>/<db-name>',
+  cookiesKey: 'string',
+}
