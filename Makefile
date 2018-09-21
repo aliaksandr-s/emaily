@@ -12,4 +12,7 @@ run-server:
 run-client:
 	npm run start --prefix client
 
-develop: run-server run-client
+run-db:
+	docker-compose up
+
+develop: run-db run-server run-client
