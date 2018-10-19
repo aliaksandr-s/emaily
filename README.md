@@ -2,7 +2,11 @@
 
 * npm
 * Make
-* mongodb
+* Docker
+
+## Install 
+
+`make unstall`
 
 ## Run
 
