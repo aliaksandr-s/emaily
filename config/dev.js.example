@@ -3,4 +3,6 @@ module.exports = {
   googleClientSecret: 'string',
   mongoURI: 'mongodb://<host>:<port>/<db-name>',
   cookiesKey: 'string',
+  stripePublishableKey: 'string',
+  stripeSecretKey: 'string',
 }
