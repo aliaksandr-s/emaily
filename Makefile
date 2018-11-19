@@ -9,6 +9,7 @@ install-client:
 install: install-server install-client
 
 run-server:
+	sleep 3 # wait for a database to run
 	npm run nodemon index.js
 
 run-client:
