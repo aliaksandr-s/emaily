@@ -1,12 +1,14 @@
 ## Requirements
 
+* node >= 8.8.1
 * npm
 * Make
 * Docker
 
-## Install 
+## Install
 
-`make unstall`
+1. create `config/dev.js` and specify keys
+2. run `make install`
 
 ## Run
 
